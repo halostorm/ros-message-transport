@@ -7,7 +7,7 @@ include($ENV{ROS_ROOT}/core/rosbuild/rosbuild.cmake)
 #  Release        : w/o debug symbols, w/ optimization
 #  RelWithDebInfo : w/ debug symbols, w/ optimization
 #  MinSizeRel     : w/o debug symbols, w/ optimization, stripped binaries
-#set(ROS_BUILD_TYPE RelWithDebInfo)
+set(ROS_BUILD_TYPE Release)
 
 find_package(OpenCV REQUIRED)
 rosbuild_init()
@@ -30,16 +30,16 @@ generate_plugin_description(SRC default_plugins_template.m4 OUTPUT default_plugi
 
 rosbuild_add_boost_directories()
 rosbuild_add_library(${PROJECT_NAME} src/manifest.cpp)
-rosbuild_link_boost(${PROJECT_NAME} system)
+rosbuild_link_boost(${PROJECT_NAME} system filesystem)
 
 rosbuild_add_executable(list_transports src/list_transports.cpp)
 target_link_libraries(list_transports ${PROJECT_NAME} ${OpenCV_LIBS})
 
 rosbuild_add_executable(test_publisher test/publisher.cpp)
-target_link_libraries(test_publisher ${PROJECT_NAME} ${OpenCV_LIBS})
+target_link_libraries(test_publisher ${PROJECT_NAME} ${OpenCV_LIBS} console_bridge)
 
 rosbuild_add_executable(test_receiver test/receiver.cpp)
-target_link_libraries(test_receiver ${PROJECT_NAME} ${OpenCV_LIBS})
+target_link_libraries(test_receiver ${PROJECT_NAME} ${OpenCV_LIBS} console_bridge)
 
 #common commands for building c++ executables and libraries
 #rosbuild_add_library(${PROJECT_NAME} src/example.cpp)

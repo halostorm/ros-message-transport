@@ -1,6 +1,6 @@
 #include <ros/ros.h>
 #include <ros/console.h>
-
+#include <log4cxx/logger.h>
 #include <sensor_msgs/PointCloud.h>
 #include <message_transport/message_transport.h>
 #include "numpoints.h"

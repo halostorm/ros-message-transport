@@ -3,6 +3,7 @@
 #include <message_transport/message_transport.h>
 #include <sensor_msgs/PointCloud.h>
 #include "numpoints.h"
+#include <log4cxx/logger.h>
 
 std::string transport;
 unsigned int npoints = 0;

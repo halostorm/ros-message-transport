@@ -7,7 +7,7 @@ include($ENV{ROS_ROOT}/core/rosbuild/rosbuild.cmake)
 #  Release        : w/o debug symbols, w/ optimization
 #  RelWithDebInfo : w/ debug symbols, w/ optimization
 #  MinSizeRel     : w/o debug symbols, w/ optimization, stripped binaries
-set(ROS_BUILD_TYPE Debug)
+set(ROS_BUILD_TYPE Release)
 
 rosbuild_init()
 
@@ -27,10 +27,10 @@ rosbuild_add_library(${PROJECT_NAME} src/sharedmem_publisher.cpp
 
 #target_link_libraries(${PROJECT_NAME} another_library)
 rosbuild_add_boost_directories()
-# rosbuild_link_boost(${PROJECT_NAME} )
+rosbuild_link_boost(${PROJECT_NAME} system filesystem)
 
 rosbuild_add_executable(sharedmem_manager src/sharedmem_manager.cpp)
-target_link_libraries(sharedmem_manager ${PROJECT_NAME})
+target_link_libraries(sharedmem_manager ${PROJECT_NAME} rt)
 
 # rosbuild_add_library(test-manifest test/manifest.cpp)
 # target_link_libraries(test-manifest ${PROJECT_NAME})

@@ -1,5 +1,6 @@
 #include <ros/ros.h>
 #include <ros/console.h>
+#include <log4cxx/logger.h>
 
 #include <std_msgs/String.h>
 #include <message_transport/message_transport.h>

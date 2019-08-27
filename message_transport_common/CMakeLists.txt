@@ -7,7 +7,7 @@ include($ENV{ROS_ROOT}/core/rosbuild/rosbuild.cmake)
 #  Release        : w/o debug symbols, w/ optimization
 #  RelWithDebInfo : w/ debug symbols, w/ optimization
 #  MinSizeRel     : w/o debug symbols, w/ optimization, stripped binaries
-#set(ROS_BUILD_TYPE RelWithDebInfo)
+set(ROS_BUILD_TYPE Release)
 
 rosbuild_init()
 
@@ -22,7 +22,7 @@ rosbuild_add_boost_directories()
 rosbuild_add_library(${PROJECT_NAME} 
 	src/publisher.cpp
 	src/subscriber.cpp)
-rosbuild_link_boost(${PROJECT_NAME} system)
+rosbuild_link_boost(${PROJECT_NAME} system filesystem)
 
 #common commands for building c++ executables and libraries
 #rosbuild_add_library(${PROJECT_NAME} src/example.cpp)

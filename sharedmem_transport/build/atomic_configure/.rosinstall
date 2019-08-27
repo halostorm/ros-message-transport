@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/build/devel/setup.sh

@@ -2,6 +2,7 @@
 #include <roscpp/SetLoggerLevel.h>
 #include <message_transport/message_transport.h>
 #include <std_msgs/String.h>
+#include <log4cxx/logger.h>
 
 std::string transport;
 unsigned int npoints = 0;
@@ -9,7 +10,6 @@ unsigned int npoints = 0;
 void callback(const std_msgs::StringConstPtr& text)
 {
     double tnow = ros::Time::now().toSec();
-
 
     ROS_INFO("%d: Text '%s' received at %f",
             getpid(),text->data.c_str(),tnow);
