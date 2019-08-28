@@ -10,6 +10,7 @@
   <url>http://ros.org/wiki/build_all_transport_pkg</url>
   <depend package="message_transport_common"/>
   <depend package="templated_transports"/>
+  <depend package="bz2_transport"/>
   <!-- <depend package="compressed_imagem_transport"/> -->
   <!-- <depend package="imagem_transport"/> -->
   <depend package="pointcloud_transport"/>
