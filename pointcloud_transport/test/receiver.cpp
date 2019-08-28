@@ -30,16 +30,15 @@ void callback(const sensor_msgs::PointCloudConstPtr& pointcloud)
     fprintf(fp,"%d %f %f %f\n",npoints,tnow,tstamp,tnow-tstamp);
 #endif
     npoints ++;
-
-    assert(pointcloud->points.size() >= numpoints);
-    assert(pointcloud->channels.size() == 1);
-    assert(pointcloud->channels[0].values.size() >= numpoints);
-    for (i=0;i<pointcloud->points.size();i++) {
-        assert(round(pointcloud->points[i].x - i) < 1e-3);
-        assert(round(pointcloud->points[i].y - i/10) < 1e-3);
-        assert(round(pointcloud->points[i].z - i/100) < 1e-3);
-        assert(round(pointcloud->channels[0].values[i] - i) < 1e-3);
-    }
+    // assert(pointcloud->points.size() >= numpoints);
+    // assert(pointcloud->channels.size() == 1);
+    // assert(pointcloud->channels[0].values.size() >= numpoints);
+    // for (i=0;i<pointcloud->points.size();i++) {
+    //     assert(round(pointcloud->points[i].x - i) < 1e-3);
+    //     assert(round(pointcloud->points[i].y - i/10) < 1e-3);
+    //     assert(round(pointcloud->points[i].z - i/100) < 1e-3);
+    //     assert(round(pointcloud->channels[0].values[i] - i) < 1e-3);
+    // }
 
     ROS_INFO("%d: Scan received at %f, delay %f",
             getpid(),tstamp,tnow-tstamp);
