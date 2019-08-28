@@ -8,8 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ROSBUILD_gensrv_py"
   "../src/sharedmem_transport/srv/__init__.py"
   "../src/sharedmem_transport/srv/_SHMGetBlocks.py"
-  "../src/sharedmem_transport/srv/_SHMClearAll.py"
   "../src/sharedmem_transport/srv/_SHMReleaseMemory.py"
+  "../src/sharedmem_transport/srv/_SHMClearAll.py"
 )
 
 # Per-language clean rules from dependency scanning.

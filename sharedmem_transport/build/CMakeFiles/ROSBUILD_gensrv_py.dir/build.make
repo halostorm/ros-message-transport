@@ -57,10 +57,10 @@ CMakeFiles/ROSBUILD_gensrv_py: ../src/sharedmem_transport/srv/__init__.py
 
 
 ../src/sharedmem_transport/srv/__init__.py: ../src/sharedmem_transport/srv/_SHMGetBlocks.py
-../src/sharedmem_transport/srv/__init__.py: ../src/sharedmem_transport/srv/_SHMClearAll.py
 ../src/sharedmem_transport/srv/__init__.py: ../src/sharedmem_transport/srv/_SHMReleaseMemory.py
+../src/sharedmem_transport/srv/__init__.py: ../src/sharedmem_transport/srv/_SHMClearAll.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../src/sharedmem_transport/srv/__init__.py"
-	/opt/ros/kinetic/share/rospy/rosbuild/scripts/gensrv_py.py --initpy /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/srv/SHMGetBlocks.srv /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/srv/SHMClearAll.srv /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/srv/SHMReleaseMemory.srv
+	/opt/ros/kinetic/share/rospy/rosbuild/scripts/gensrv_py.py --initpy /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/srv/SHMGetBlocks.srv /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/srv/SHMReleaseMemory.srv /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/srv/SHMClearAll.srv
 
 ../src/sharedmem_transport/srv/_SHMGetBlocks.py: ../srv/SHMGetBlocks.srv
 ../src/sharedmem_transport/srv/_SHMGetBlocks.py: /opt/ros/kinetic/share/rospy/rosbuild/scripts/gensrv_py.py
@@ -96,39 +96,6 @@ CMakeFiles/ROSBUILD_gensrv_py: ../src/sharedmem_transport/srv/__init__.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../src/sharedmem_transport/srv/_SHMGetBlocks.py"
 	/opt/ros/kinetic/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/srv/SHMGetBlocks.srv
 
-../src/sharedmem_transport/srv/_SHMClearAll.py: ../srv/SHMClearAll.srv
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/rospy/rosbuild/scripts/gensrv_py.py
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/lib/roslib/gendeps
-../src/sharedmem_transport/srv/_SHMClearAll.py: ../manifest.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/class_loader/package.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/cpp_common/package.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/catkin/package.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/genmsg/package.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/gencpp/package.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/geneus/package.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/gennodejs/package.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/genlisp/package.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/genpy/package.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/message_generation/package.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/rostime/package.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/roscpp_traits/package.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/roscpp_serialization/package.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/message_runtime/package.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/rosbuild/package.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/rosconsole/package.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/ros_environment/package.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/rospack/package.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/roslib/package.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/pluginlib/package.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/std_msgs/package.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/rosgraph_msgs/package.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/xmlrpcpp/package.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/roscpp/package.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/message_filters/package.xml
-../src/sharedmem_transport/srv/_SHMClearAll.py: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/message_transport_common/manifest.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../src/sharedmem_transport/srv/_SHMClearAll.py"
-	/opt/ros/kinetic/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/srv/SHMClearAll.srv
-
 ../src/sharedmem_transport/srv/_SHMReleaseMemory.py: ../srv/SHMReleaseMemory.srv
 ../src/sharedmem_transport/srv/_SHMReleaseMemory.py: /opt/ros/kinetic/share/rospy/rosbuild/scripts/gensrv_py.py
 ../src/sharedmem_transport/srv/_SHMReleaseMemory.py: /opt/ros/kinetic/lib/roslib/gendeps
@@ -159,14 +126,47 @@ CMakeFiles/ROSBUILD_gensrv_py: ../src/sharedmem_transport/srv/__init__.py
 ../src/sharedmem_transport/srv/_SHMReleaseMemory.py: /opt/ros/kinetic/share/roscpp/package.xml
 ../src/sharedmem_transport/srv/_SHMReleaseMemory.py: /opt/ros/kinetic/share/message_filters/package.xml
 ../src/sharedmem_transport/srv/_SHMReleaseMemory.py: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/message_transport_common/manifest.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ../src/sharedmem_transport/srv/_SHMReleaseMemory.py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../src/sharedmem_transport/srv/_SHMReleaseMemory.py"
 	/opt/ros/kinetic/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/srv/SHMReleaseMemory.srv
+
+../src/sharedmem_transport/srv/_SHMClearAll.py: ../srv/SHMClearAll.srv
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/rospy/rosbuild/scripts/gensrv_py.py
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/lib/roslib/gendeps
+../src/sharedmem_transport/srv/_SHMClearAll.py: ../manifest.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/class_loader/package.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/cpp_common/package.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/catkin/package.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/genmsg/package.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/gencpp/package.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/geneus/package.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/gennodejs/package.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/genlisp/package.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/genpy/package.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/message_generation/package.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/rostime/package.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/roscpp_traits/package.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/roscpp_serialization/package.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/message_runtime/package.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/rosbuild/package.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/rosconsole/package.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/ros_environment/package.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/rospack/package.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/roslib/package.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/pluginlib/package.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/std_msgs/package.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/rosgraph_msgs/package.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/xmlrpcpp/package.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/roscpp/package.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /opt/ros/kinetic/share/message_filters/package.xml
+../src/sharedmem_transport/srv/_SHMClearAll.py: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/message_transport_common/manifest.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ../src/sharedmem_transport/srv/_SHMClearAll.py"
+	/opt/ros/kinetic/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/srv/SHMClearAll.srv
 
 ROSBUILD_gensrv_py: CMakeFiles/ROSBUILD_gensrv_py
 ROSBUILD_gensrv_py: ../src/sharedmem_transport/srv/__init__.py
 ROSBUILD_gensrv_py: ../src/sharedmem_transport/srv/_SHMGetBlocks.py
-ROSBUILD_gensrv_py: ../src/sharedmem_transport/srv/_SHMClearAll.py
 ROSBUILD_gensrv_py: ../src/sharedmem_transport/srv/_SHMReleaseMemory.py
+ROSBUILD_gensrv_py: ../src/sharedmem_transport/srv/_SHMClearAll.py
 ROSBUILD_gensrv_py: CMakeFiles/ROSBUILD_gensrv_py.dir/build.make
 
 .PHONY : ROSBUILD_gensrv_py

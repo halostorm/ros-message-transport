@@ -6,15 +6,15 @@ file(REMOVE_RECURSE
   "../src/udpmulti_transport/msg"
   "../src/udpmulti_transport/srv"
   "CMakeFiles/ROSBUILD_gensrv_lisp"
-  "../srv_gen/lisp/UDPMultGetTopicList.lisp"
-  "../srv_gen/lisp/_package.lisp"
-  "../srv_gen/lisp/_package_UDPMultGetTopicList.lisp"
-  "../srv_gen/lisp/UDPMultClearAll.lisp"
-  "../srv_gen/lisp/_package.lisp"
-  "../srv_gen/lisp/_package_UDPMultClearAll.lisp"
   "../srv_gen/lisp/UDPMultRegisterTopic.lisp"
   "../srv_gen/lisp/_package.lisp"
   "../srv_gen/lisp/_package_UDPMultRegisterTopic.lisp"
+  "../srv_gen/lisp/UDPMultClearAll.lisp"
+  "../srv_gen/lisp/_package.lisp"
+  "../srv_gen/lisp/_package_UDPMultClearAll.lisp"
+  "../srv_gen/lisp/UDPMultGetTopicList.lisp"
+  "../srv_gen/lisp/_package.lisp"
+  "../srv_gen/lisp/_package_UDPMultGetTopicList.lisp"
 )
 
 # Per-language clean rules from dependency scanning.
