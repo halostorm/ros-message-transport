@@ -131,6 +131,7 @@ list_transports_EXTERNAL_OBJECTS =
 ../bin/list_transports: CMakeFiles/list_transports.dir/src/list_transports.cpp.o
 ../bin/list_transports: CMakeFiles/list_transports.dir/build.make
 ../bin/list_transports: ../lib/libpointcloud_transport.so
+../bin/list_transports: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
 ../bin/list_transports: CMakeFiles/list_transports.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/list_transports"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/list_transports.dir/link.txt --verbose=$(VERBOSE)

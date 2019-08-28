@@ -14,7 +14,7 @@
   <depend package="sensor_msgs"/>
 
   <export>
-    <cpp lflags="-Wl,-rpath,${prefix}/lib -L${prefix}/lib -lpointcloud_transport" cflags="-I${prefix}/include"/>
+    <cpp lflags="-Wl,-rpath,${prefix}/lib -L${prefix}/lib -lpointcloud_transport -ltinyxml2" cflags="-I${prefix}/include"/>
     <pointcloud_transport plugin="${prefix}/default_plugins.xml" />
   </export>
 

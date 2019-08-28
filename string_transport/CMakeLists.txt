@@ -21,13 +21,12 @@ find_library(LOG4CXX_LIBRARY log4cxx)
 
 generate_plugin_description(SRC default_plugins_template.m4 OUTPUT default_plugins.xml)
 
-
 rosbuild_add_boost_directories()
 rosbuild_add_library(${PROJECT_NAME} src/manifest.cpp)
 rosbuild_link_boost(${PROJECT_NAME} system filesystem)
 
 rosbuild_add_executable(list_transports src/list_transports.cpp)
-target_link_libraries(list_transports ${PROJECT_NAME})
+target_link_libraries(list_transports ${PROJECT_NAME} console_bridge)
 
 rosbuild_add_executable(test_publisher test/publisher.cpp)
 target_link_libraries(test_publisher ${PROJECT_NAME} ${LOG4CXX_LIBRARY} console_bridge)

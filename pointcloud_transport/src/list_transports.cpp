@@ -15,17 +15,17 @@ int main(int argc, char** argv)
         l_pc.run("pointcloud_transport","sensor_msgs::PointCloud");
     }
 
-    {
-        printf("\n\n=========== sensor_msgs::PointCloud2 ===========\n");
-        ListTransport<sensor_msgs::PointCloud2> l_pc2;
-        l_pc2.run("pointcloud_transport","sensor_msgs::PointCloud2");
-    }
+    // {
+    //     printf("\n\n=========== sensor_msgs::PointCloud2 ===========\n");
+    //     ListTransport<sensor_msgs::PointCloud2> l_pc2;
+    //     l_pc2.run("pointcloud_transport","sensor_msgs::PointCloud2");
+    // }
 
-    {
-        printf("\n\n=========== sensor_msgs::LaserScan ===========\n");
-        ListTransport<sensor_msgs::LaserScan> l_ls;
-        l_ls.run("pointcloud_transport","sensor_msgs::LaserScan");
-    }
+    // {
+    //     printf("\n\n=========== sensor_msgs::LaserScan ===========\n");
+    //     ListTransport<sensor_msgs::LaserScan> l_ls;
+    //     l_ls.run("pointcloud_transport","sensor_msgs::LaserScan");
+    // }
 
 	return 0;
 }

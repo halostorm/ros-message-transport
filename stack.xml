@@ -10,5 +10,4 @@
   <depend stack="ros_comm" /> <!-- std_msgs, message_filters -->
   <depend stack="vision_opencv" /> <!-- opencv2, cv_bridge -->
   <depend stack="image_transport_plugins" /> 
-
 </stack>

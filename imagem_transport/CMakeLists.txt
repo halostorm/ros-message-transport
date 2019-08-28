@@ -13,7 +13,6 @@ find_package(OpenCV REQUIRED)
 rosbuild_init()
 rosbuild_include(templated_transports templated_transports)
 
-
 #set the default path for built executables to the "bin" directory
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 #set the default path for built libraries to the "lib" directory
@@ -27,13 +26,12 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 # add_definitions(-O0 -g -ggdb)
 generate_plugin_description(SRC default_plugins_template.m4 OUTPUT default_plugins.xml)
 
-
 rosbuild_add_boost_directories()
 rosbuild_add_library(${PROJECT_NAME} src/manifest.cpp)
 rosbuild_link_boost(${PROJECT_NAME} system filesystem)
 
 rosbuild_add_executable(list_transports src/list_transports.cpp)
-target_link_libraries(list_transports ${PROJECT_NAME} ${OpenCV_LIBS})
+target_link_libraries(list_transports ${PROJECT_NAME} ${OpenCV_LIBS} console_bridge)
 
 rosbuild_add_executable(test_publisher test/publisher.cpp)
 target_link_libraries(test_publisher ${PROJECT_NAME} ${OpenCV_LIBS} console_bridge)

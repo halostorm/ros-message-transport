@@ -80,7 +80,7 @@ namespace message_transport {
 		public:
 			SubscriberImpl(const std::string & packageName,const std::string & className)
 				: loader_(packageName, 
-						std::string("message_transport::SubscriberPlugin<")+className+">") { }
+						std::string("message_transport::SubscriberPlugin<"+className+">")) { }
 
 			~SubscriberImpl() {
 				shutdownImpl();

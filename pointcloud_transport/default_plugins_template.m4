@@ -1,8 +1,4 @@
-
-
 <library path="lib/libpointcloud_transport">
-    
-
   <class name="pointcloud_transport/decimated_pub_pc" 
 		type="decimated_transport::DecimatedPublisher" 
 		base_class_type="message_transport::PublisherPlugin<sensor_msgs::PointCloud>">

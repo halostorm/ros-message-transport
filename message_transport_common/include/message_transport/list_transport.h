@@ -49,9 +49,9 @@ namespace message_transport {
 				void run(const std::string & package_name,const std::string & class_name) {
 
 					pluginlib::ClassLoader<PublisherPlugin< M> > pub_loader(package_name, 
-							std::string("message_transport::PublisherPlugin<")+class_name+">");
+							std::string("message_transport::PublisherPlugin<"+class_name+">"));
 					pluginlib::ClassLoader<SubscriberPlugin< M> > sub_loader(package_name, 
-							std::string("message_transport::SubscriberPlugin<")+class_name+">");
+							std::string("message_transport::SubscriberPlugin<"+class_name+">"));
 					typedef std::map<std::string, TransportDesc> StatusMap;
 					StatusMap transports;
 

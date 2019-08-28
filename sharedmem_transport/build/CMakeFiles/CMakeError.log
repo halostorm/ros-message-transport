@@ -1,23 +1,23 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7cd2b/fast"
+Run Build Command:"/usr/bin/make" "cmTC_7270e/fast"
 make[1]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_7cd2b.dir/build.make CMakeFiles/cmTC_7cd2b.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_7270e.dir/build.make CMakeFiles/cmTC_7270e.dir/build
 make[2]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7cd2b.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_7cd2b.dir/CheckSymbolExists.c.o   -c /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_7cd2b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cd2b.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_7cd2b.dir/CheckSymbolExists.c.o  -o cmTC_7cd2b -rdynamic 
-CMakeFiles/cmTC_7cd2b.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_7270e.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_7270e.dir/CheckSymbolExists.c.o   -c /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7270e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7270e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_7270e.dir/CheckSymbolExists.c.o  -o cmTC_7270e -rdynamic 
+CMakeFiles/cmTC_7270e.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_7cd2b.dir/build.make:97: recipe for target 'cmTC_7cd2b' failed
-make[2]: *** [cmTC_7cd2b] Error 1
+CMakeFiles/cmTC_7270e.dir/build.make:97: recipe for target 'cmTC_7270e' failed
+make[2]: *** [cmTC_7270e] Error 1
 make[2]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_7cd2b/fast' failed
-make[1]: *** [cmTC_7cd2b/fast] Error 2
+Makefile:126: recipe for target 'cmTC_7270e/fast' failed
+make[1]: *** [cmTC_7270e/fast] Error 2
 make[1]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/build/CMakeFiles/CMakeTmp'
 
 File /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -38,22 +38,22 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_69a18/fast"
+Run Build Command:"/usr/bin/make" "cmTC_184bb/fast"
 make[1]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_69a18.dir/build.make CMakeFiles/cmTC_69a18.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_184bb.dir/build.make CMakeFiles/cmTC_184bb.dir/build
 make[2]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_69a18.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_69a18.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_69a18
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69a18.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_69a18.dir/CheckFunctionExists.c.o  -o cmTC_69a18 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTC_184bb.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_184bb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_184bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_184bb.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_184bb.dir/CheckFunctionExists.c.o  -o cmTC_184bb -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_69a18.dir/build.make:97: recipe for target 'cmTC_69a18' failed
-make[2]: *** [cmTC_69a18] Error 1
+CMakeFiles/cmTC_184bb.dir/build.make:97: recipe for target 'cmTC_184bb' failed
+make[2]: *** [cmTC_184bb] Error 1
 make[2]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_69a18/fast' failed
-make[1]: *** [cmTC_69a18/fast] Error 2
+Makefile:126: recipe for target 'cmTC_184bb/fast' failed
+make[1]: *** [cmTC_184bb/fast] Error 2
 make[1]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/build/CMakeFiles/CMakeTmp'
 
 

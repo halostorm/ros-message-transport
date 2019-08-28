@@ -108,7 +108,7 @@ namespace message_transport {
 					const std::string & packageName,
 					const std::string & className) : PublisherImplGen(topic),
 			loader_(packageName, 
-						std::string("message_transport::PublisherPlugin<")+className+">")
+						std::string("message_transport::PublisherPlugin<"+className+">"))
 		{
 		}
 

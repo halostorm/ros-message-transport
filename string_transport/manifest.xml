@@ -15,7 +15,7 @@
 
 
   <export>
-      <cpp lflags="-Wl,-rpath,${prefix}/lib -L${prefix}/lib -lstring_transport" cflags="-I${prefix}/include"/>
+      <cpp lflags="-Wl,-rpath,${prefix}/lib -L${prefix}/lib -lstring_transport -ltinyxml2" cflags="-I${prefix}/include"/>
       <string_transport plugin="${prefix}/default_plugins.xml" />
   </export>
 

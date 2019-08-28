@@ -28,15 +28,15 @@ The CXX compiler identification is GNU, found in "/home/duwenwen/Workspace/point
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9e512/fast"
+Run Build Command:"/usr/bin/make" "cmTC_420a4/fast"
 make[1]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_9e512.dir/build.make CMakeFiles/cmTC_9e512.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_420a4.dir/build.make CMakeFiles/cmTC_420a4.dir/build
 make[2]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9e512.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_9e512.dir/testCCompiler.c.o   -c /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_9e512
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e512.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_9e512.dir/testCCompiler.c.o  -o cmTC_9e512 -rdynamic 
+Building C object CMakeFiles/cmTC_420a4.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_420a4.dir/testCCompiler.c.o   -c /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_420a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_420a4.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_420a4.dir/testCCompiler.c.o  -o cmTC_420a4 -rdynamic 
 make[2]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
 
@@ -44,15 +44,15 @@ make[1]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-mess
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d8790/fast"
+Run Build Command:"/usr/bin/make" "cmTC_b1e9b/fast"
 make[1]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_d8790.dir/build.make CMakeFiles/cmTC_d8790.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_b1e9b.dir/build.make CMakeFiles/cmTC_b1e9b.dir/build
 make[2]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d8790.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_d8790.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_d8790
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8790.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_d8790.dir/CMakeCCompilerABI.c.o  -o cmTC_d8790 -rdynamic  
+Building C object CMakeFiles/cmTC_b1e9b.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_b1e9b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_b1e9b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1e9b.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_b1e9b.dir/CMakeCCompilerABI.c.o  -o cmTC_b1e9b -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -62,8 +62,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d8790' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cclhpCxr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_d8790 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_d8790.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b1e9b' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGwCk8P.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_b1e9b /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_b1e9b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[2]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
 
@@ -72,15 +72,15 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d8790/fast"]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b1e9b/fast"]
   ignore line: [make[1]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d8790.dir/build.make CMakeFiles/cmTC_d8790.dir/build]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b1e9b.dir/build.make CMakeFiles/cmTC_b1e9b.dir/build]
   ignore line: [make[2]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_d8790.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_d8790.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_d8790]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8790.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_d8790.dir/CMakeCCompilerABI.c.o  -o cmTC_d8790 -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTC_b1e9b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_b1e9b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_b1e9b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1e9b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_b1e9b.dir/CMakeCCompilerABI.c.o  -o cmTC_b1e9b -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d8790' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cclhpCxr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_d8790 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_d8790.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b1e9b' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGwCk8P.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_b1e9b /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_b1e9b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cclhpCxr.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccGwCk8P.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -114,7 +114,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d8790] ==> ignore
+    arg [cmTC_b1e9b] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -126,7 +126,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_d8790.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_b1e9b.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -160,15 +160,15 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6a58d/fast"
+Run Build Command:"/usr/bin/make" "cmTC_fbf74/fast"
 make[1]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_6a58d.dir/build.make CMakeFiles/cmTC_6a58d.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_fbf74.dir/build.make CMakeFiles/cmTC_fbf74.dir/build
 make[2]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6a58d.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_6a58d.dir/feature_tests.c.o   -c /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_6a58d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a58d.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_6a58d.dir/feature_tests.c.o  -o cmTC_6a58d -rdynamic 
+Building C object CMakeFiles/cmTC_fbf74.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_fbf74.dir/feature_tests.c.o   -c /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_fbf74
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbf74.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_fbf74.dir/feature_tests.c.o  -o cmTC_fbf74 -rdynamic 
 make[2]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
 
@@ -182,15 +182,15 @@ make[1]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-mess
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_55c81/fast"
+Run Build Command:"/usr/bin/make" "cmTC_57851/fast"
 make[1]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_55c81.dir/build.make CMakeFiles/cmTC_55c81.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_57851.dir/build.make CMakeFiles/cmTC_57851.dir/build
 make[2]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_55c81.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_55c81.dir/feature_tests.c.o   -c /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_55c81
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55c81.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_55c81.dir/feature_tests.c.o  -o cmTC_55c81 -rdynamic 
+Building C object CMakeFiles/cmTC_57851.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_57851.dir/feature_tests.c.o   -c /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_57851
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57851.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_57851.dir/feature_tests.c.o  -o cmTC_57851 -rdynamic 
 make[2]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
 
@@ -204,15 +204,15 @@ make[1]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-mess
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_214b0/fast"
+Run Build Command:"/usr/bin/make" "cmTC_ba5da/fast"
 make[1]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_214b0.dir/build.make CMakeFiles/cmTC_214b0.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_ba5da.dir/build.make CMakeFiles/cmTC_ba5da.dir/build
 make[2]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_214b0.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_214b0.dir/feature_tests.c.o   -c /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_214b0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_214b0.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_214b0.dir/feature_tests.c.o  -o cmTC_214b0 -rdynamic 
+Building C object CMakeFiles/cmTC_ba5da.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_ba5da.dir/feature_tests.c.o   -c /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ba5da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba5da.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_ba5da.dir/feature_tests.c.o  -o cmTC_ba5da -rdynamic 
 make[2]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
 
@@ -224,15 +224,15 @@ make[1]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-mess
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_31614/fast"
+Run Build Command:"/usr/bin/make" "cmTC_c39a4/fast"
 make[1]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_31614.dir/build.make CMakeFiles/cmTC_31614.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_c39a4.dir/build.make CMakeFiles/cmTC_c39a4.dir/build
 make[2]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_31614.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_31614.dir/testCXXCompiler.cxx.o -c /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_31614
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31614.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_31614.dir/testCXXCompiler.cxx.o  -o cmTC_31614 -rdynamic 
+Building CXX object CMakeFiles/cmTC_c39a4.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_c39a4.dir/testCXXCompiler.cxx.o -c /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_c39a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c39a4.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_c39a4.dir/testCXXCompiler.cxx.o  -o cmTC_c39a4 -rdynamic 
 make[2]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
 
@@ -240,15 +240,15 @@ make[1]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-mess
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_21829/fast"
+Run Build Command:"/usr/bin/make" "cmTC_ba810/fast"
 make[1]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_21829.dir/build.make CMakeFiles/cmTC_21829.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_ba810.dir/build.make CMakeFiles/cmTC_ba810.dir/build
 make[2]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_21829.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_21829.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_21829
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21829.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_21829.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_21829 -rdynamic  
+Building CXX object CMakeFiles/cmTC_ba810.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_ba810.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_ba810
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba810.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_ba810.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ba810 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -258,8 +258,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_21829' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFmzQcB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_21829 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_21829.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ba810' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRsOLH7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_ba810 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_ba810.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[2]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
 
@@ -268,15 +268,15 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_21829/fast"]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ba810/fast"]
   ignore line: [make[1]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_21829.dir/build.make CMakeFiles/cmTC_21829.dir/build]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ba810.dir/build.make CMakeFiles/cmTC_ba810.dir/build]
   ignore line: [make[2]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_21829.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_21829.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_21829]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21829.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_21829.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_21829 -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_ba810.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_ba810.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_ba810]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba810.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_ba810.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ba810 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -286,13 +286,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_21829' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFmzQcB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_21829 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_21829.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ba810' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRsOLH7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_ba810 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_ba810.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccFmzQcB.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccRsOLH7.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -310,7 +310,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_21829] ==> ignore
+    arg [cmTC_ba810] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -322,7 +322,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_21829.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_ba810.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -354,15 +354,15 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c35aa/fast"
+Run Build Command:"/usr/bin/make" "cmTC_c835d/fast"
 make[1]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_c35aa.dir/build.make CMakeFiles/cmTC_c35aa.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_c835d.dir/build.make CMakeFiles/cmTC_c835d.dir/build
 make[2]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c35aa.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_c35aa.dir/feature_tests.cxx.o -c /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c35aa
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c35aa.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_c35aa.dir/feature_tests.cxx.o  -o cmTC_c35aa -rdynamic 
+Building CXX object CMakeFiles/cmTC_c835d.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_c835d.dir/feature_tests.cxx.o -c /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c835d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c835d.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_c835d.dir/feature_tests.cxx.o  -o cmTC_c835d -rdynamic 
 make[2]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
 
@@ -429,15 +429,15 @@ make[1]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-mess
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_293a8/fast"
+Run Build Command:"/usr/bin/make" "cmTC_d65e0/fast"
 make[1]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_293a8.dir/build.make CMakeFiles/cmTC_293a8.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_d65e0.dir/build.make CMakeFiles/cmTC_d65e0.dir/build
 make[2]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_293a8.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_293a8.dir/feature_tests.cxx.o -c /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_293a8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_293a8.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_293a8.dir/feature_tests.cxx.o  -o cmTC_293a8 -rdynamic 
+Building CXX object CMakeFiles/cmTC_d65e0.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_d65e0.dir/feature_tests.cxx.o -c /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d65e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d65e0.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_d65e0.dir/feature_tests.cxx.o  -o cmTC_d65e0 -rdynamic 
 make[2]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
 
@@ -504,15 +504,15 @@ make[1]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-mess
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_00e4a/fast"
+Run Build Command:"/usr/bin/make" "cmTC_eefd6/fast"
 make[1]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_00e4a.dir/build.make CMakeFiles/cmTC_00e4a.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_eefd6.dir/build.make CMakeFiles/cmTC_eefd6.dir/build
 make[2]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_00e4a.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_00e4a.dir/feature_tests.cxx.o -c /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_00e4a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00e4a.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_00e4a.dir/feature_tests.cxx.o  -o cmTC_00e4a -rdynamic 
+Building CXX object CMakeFiles/cmTC_eefd6.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_eefd6.dir/feature_tests.cxx.o -c /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_eefd6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eefd6.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_eefd6.dir/feature_tests.cxx.o  -o cmTC_eefd6 -rdynamic 
 make[2]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
 
@@ -577,15 +577,15 @@ make[1]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-mess
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_54903/fast"
+Run Build Command:"/usr/bin/make" "cmTC_f88b4/fast"
 make[1]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_54903.dir/build.make CMakeFiles/cmTC_54903.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_f88b4.dir/build.make CMakeFiles/cmTC_f88b4.dir/build
 make[2]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_54903.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_54903.dir/CheckIncludeFile.c.o   -c /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_54903
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54903.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_54903.dir/CheckIncludeFile.c.o  -o cmTC_54903 -rdynamic 
+Building C object CMakeFiles/cmTC_f88b4.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_f88b4.dir/CheckIncludeFile.c.o   -c /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f88b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f88b4.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_f88b4.dir/CheckIncludeFile.c.o  -o cmTC_f88b4 -rdynamic 
 make[2]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
 
@@ -593,15 +593,15 @@ make[1]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-mess
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ff503/fast"
+Run Build Command:"/usr/bin/make" "cmTC_1eff4/fast"
 make[1]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_ff503.dir/build.make CMakeFiles/cmTC_ff503.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_1eff4.dir/build.make CMakeFiles/cmTC_1eff4.dir/build
 make[2]: Entering directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ff503.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ff503.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_ff503
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff503.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_ff503.dir/CheckFunctionExists.c.o  -o cmTC_ff503 -rdynamic -lpthread 
+Building C object CMakeFiles/cmTC_1eff4.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1eff4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1eff4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1eff4.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_1eff4.dir/CheckFunctionExists.c.o  -o cmTC_1eff4 -rdynamic -lpthread 
 make[2]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/CMakeTmp'
 

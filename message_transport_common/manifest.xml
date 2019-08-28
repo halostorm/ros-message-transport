@@ -12,7 +12,7 @@
   <depend package="message_filters"/>
 
   <export>
-    <cpp lflags="-Wl,-rpath,${prefix}/lib -L${prefix}/lib -lmessage_transport_common" cflags="-I${prefix}/include"/>
+    <cpp lflags="-Wl,-rpath,${prefix}/lib -L${prefix}/lib -lmessage_transport_common -ltinyxml2" cflags="-I${prefix}/include"/>
   </export>
 
 </package>
