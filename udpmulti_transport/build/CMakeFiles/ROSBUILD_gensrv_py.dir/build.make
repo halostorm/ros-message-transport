@@ -56,44 +56,45 @@ include CMakeFiles/ROSBUILD_gensrv_py.dir/progress.make
 CMakeFiles/ROSBUILD_gensrv_py: ../src/udpmulti_transport/srv/__init__.py
 
 
-../src/udpmulti_transport/srv/__init__.py: ../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py
-../src/udpmulti_transport/srv/__init__.py: ../src/udpmulti_transport/srv/_UDPMultClearAll.py
 ../src/udpmulti_transport/srv/__init__.py: ../src/udpmulti_transport/srv/_UDPMultGetTopicList.py
+../src/udpmulti_transport/srv/__init__.py: ../src/udpmulti_transport/srv/_UDPMultClearAll.py
+../src/udpmulti_transport/srv/__init__.py: ../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/udpmulti_transport/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../src/udpmulti_transport/srv/__init__.py"
-	/opt/ros/kinetic/share/rospy/rosbuild/scripts/gensrv_py.py --initpy /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/udpmulti_transport/srv/UDPMultRegisterTopic.srv /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/udpmulti_transport/srv/UDPMultClearAll.srv /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/udpmulti_transport/srv/UDPMultGetTopicList.srv
+	/opt/ros/kinetic/share/rospy/rosbuild/scripts/gensrv_py.py --initpy /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/udpmulti_transport/srv/UDPMultGetTopicList.srv /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/udpmulti_transport/srv/UDPMultClearAll.srv /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/udpmulti_transport/srv/UDPMultRegisterTopic.srv
 
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: ../srv/UDPMultRegisterTopic.srv
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/rospy/rosbuild/scripts/gensrv_py.py
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/lib/roslib/gendeps
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: ../manifest.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/cpp_common/package.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/rostime/package.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/roscpp_traits/package.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/roscpp_serialization/package.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/catkin/package.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/genmsg/package.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/genpy/package.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/message_runtime/package.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/std_msgs/package.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/class_loader/package.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/gencpp/package.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/geneus/package.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/gennodejs/package.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/genlisp/package.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/message_generation/package.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/rosbuild/package.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/rosconsole/package.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/ros_environment/package.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/rospack/package.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/roslib/package.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/pluginlib/package.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/rosgraph_msgs/package.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/xmlrpcpp/package.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/roscpp/package.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/message_filters/package.xml
-../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/message_transport_common/manifest.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/udpmulti_transport/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py"
-	/opt/ros/kinetic/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/udpmulti_transport/srv/UDPMultRegisterTopic.srv
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: ../srv/UDPMultGetTopicList.srv
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/rospy/rosbuild/scripts/gensrv_py.py
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/lib/roslib/gendeps
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: ../msg/UDPMultTopic.msg
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: ../manifest.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/cpp_common/package.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/rostime/package.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/roscpp_traits/package.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/roscpp_serialization/package.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/catkin/package.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/genmsg/package.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/genpy/package.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/message_runtime/package.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/std_msgs/package.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/class_loader/package.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/gencpp/package.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/geneus/package.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/gennodejs/package.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/genlisp/package.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/message_generation/package.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/rosbuild/package.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/rosconsole/package.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/ros_environment/package.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/rospack/package.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/roslib/package.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/pluginlib/package.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/rosgraph_msgs/package.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/xmlrpcpp/package.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/roscpp/package.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/message_filters/package.xml
+../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/message_transport_common/manifest.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/udpmulti_transport/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../src/udpmulti_transport/srv/_UDPMultGetTopicList.py"
+	/opt/ros/kinetic/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/udpmulti_transport/srv/UDPMultGetTopicList.srv
 
 ../src/udpmulti_transport/srv/_UDPMultClearAll.py: ../srv/UDPMultClearAll.srv
 ../src/udpmulti_transport/srv/_UDPMultClearAll.py: /opt/ros/kinetic/share/rospy/rosbuild/scripts/gensrv_py.py
@@ -128,45 +129,44 @@ CMakeFiles/ROSBUILD_gensrv_py: ../src/udpmulti_transport/srv/__init__.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/udpmulti_transport/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../src/udpmulti_transport/srv/_UDPMultClearAll.py"
 	/opt/ros/kinetic/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/udpmulti_transport/srv/UDPMultClearAll.srv
 
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: ../srv/UDPMultGetTopicList.srv
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/rospy/rosbuild/scripts/gensrv_py.py
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/lib/roslib/gendeps
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: ../msg/UDPMultTopic.msg
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: ../manifest.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/cpp_common/package.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/rostime/package.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/roscpp_traits/package.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/roscpp_serialization/package.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/catkin/package.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/genmsg/package.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/genpy/package.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/message_runtime/package.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/std_msgs/package.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/class_loader/package.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/gencpp/package.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/geneus/package.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/gennodejs/package.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/genlisp/package.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/message_generation/package.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/rosbuild/package.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/rosconsole/package.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/ros_environment/package.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/rospack/package.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/roslib/package.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/pluginlib/package.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/rosgraph_msgs/package.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/xmlrpcpp/package.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/roscpp/package.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /opt/ros/kinetic/share/message_filters/package.xml
-../src/udpmulti_transport/srv/_UDPMultGetTopicList.py: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/message_transport_common/manifest.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/udpmulti_transport/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ../src/udpmulti_transport/srv/_UDPMultGetTopicList.py"
-	/opt/ros/kinetic/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/udpmulti_transport/srv/UDPMultGetTopicList.srv
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: ../srv/UDPMultRegisterTopic.srv
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/rospy/rosbuild/scripts/gensrv_py.py
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/lib/roslib/gendeps
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: ../manifest.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/cpp_common/package.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/rostime/package.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/roscpp_traits/package.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/roscpp_serialization/package.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/catkin/package.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/genmsg/package.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/genpy/package.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/message_runtime/package.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/std_msgs/package.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/class_loader/package.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/gencpp/package.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/geneus/package.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/gennodejs/package.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/genlisp/package.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/message_generation/package.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/rosbuild/package.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/rosconsole/package.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/ros_environment/package.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/rospack/package.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/roslib/package.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/pluginlib/package.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/rosgraph_msgs/package.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/xmlrpcpp/package.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/roscpp/package.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /opt/ros/kinetic/share/message_filters/package.xml
+../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/message_transport_common/manifest.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/udpmulti_transport/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py"
+	/opt/ros/kinetic/share/rospy/rosbuild/scripts/gensrv_py.py --noinitpy /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/udpmulti_transport/srv/UDPMultRegisterTopic.srv
 
 ROSBUILD_gensrv_py: CMakeFiles/ROSBUILD_gensrv_py
 ROSBUILD_gensrv_py: ../src/udpmulti_transport/srv/__init__.py
-ROSBUILD_gensrv_py: ../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py
-ROSBUILD_gensrv_py: ../src/udpmulti_transport/srv/_UDPMultClearAll.py
 ROSBUILD_gensrv_py: ../src/udpmulti_transport/srv/_UDPMultGetTopicList.py
+ROSBUILD_gensrv_py: ../src/udpmulti_transport/srv/_UDPMultClearAll.py
+ROSBUILD_gensrv_py: ../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py
 ROSBUILD_gensrv_py: CMakeFiles/ROSBUILD_gensrv_py.dir/build.make
 
 .PHONY : ROSBUILD_gensrv_py

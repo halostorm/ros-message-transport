@@ -63,6 +63,8 @@ protected:
 	ros::NodeHandle n_;
 	// message_transport::MessageTransport<sensor_msgs::PointCloud> it_;
 	bz2_transport::BZ2Publisher<sensor_msgs::PointCloud> pcmsg_pub_;
+	// bz2_transport::BZ2Packet_  pubfn;
+	// message_transport::SingleSubscriberPublisher<sensor_msgs::PointCloud>
 	sensor_msgs::PointCloud pointcloud;
 
 public:

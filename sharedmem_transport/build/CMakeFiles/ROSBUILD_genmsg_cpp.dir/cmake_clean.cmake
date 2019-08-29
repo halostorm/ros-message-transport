@@ -6,8 +6,8 @@ file(REMOVE_RECURSE
   "../src/sharedmem_transport/msg"
   "../src/sharedmem_transport/srv"
   "CMakeFiles/ROSBUILD_genmsg_cpp"
-  "../msg_gen/cpp/include/sharedmem_transport/SharedMemHeader.h"
   "../msg_gen/cpp/include/sharedmem_transport/SharedMemBlock.h"
+  "../msg_gen/cpp/include/sharedmem_transport/SharedMemHeader.h"
 )
 
 # Per-language clean rules from dependency scanning.

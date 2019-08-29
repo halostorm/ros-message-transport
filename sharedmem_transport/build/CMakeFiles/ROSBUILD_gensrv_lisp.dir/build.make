@@ -56,12 +56,12 @@ include CMakeFiles/ROSBUILD_gensrv_lisp.dir/progress.make
 CMakeFiles/ROSBUILD_gensrv_lisp: ../srv_gen/lisp/SHMGetBlocks.lisp
 CMakeFiles/ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package.lisp
 CMakeFiles/ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package_SHMGetBlocks.lisp
-CMakeFiles/ROSBUILD_gensrv_lisp: ../srv_gen/lisp/SHMReleaseMemory.lisp
-CMakeFiles/ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package.lisp
-CMakeFiles/ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package_SHMReleaseMemory.lisp
 CMakeFiles/ROSBUILD_gensrv_lisp: ../srv_gen/lisp/SHMClearAll.lisp
 CMakeFiles/ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package.lisp
 CMakeFiles/ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package_SHMClearAll.lisp
+CMakeFiles/ROSBUILD_gensrv_lisp: ../srv_gen/lisp/SHMReleaseMemory.lisp
+CMakeFiles/ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package.lisp
+CMakeFiles/ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package_SHMReleaseMemory.lisp
 
 
 ../srv_gen/lisp/SHMGetBlocks.lisp: ../srv/SHMGetBlocks.srv
@@ -104,45 +104,6 @@ CMakeFiles/ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package_SHMClearAll.lisp
 ../srv_gen/lisp/_package_SHMGetBlocks.lisp: ../srv_gen/lisp/SHMGetBlocks.lisp
 	@$(CMAKE_COMMAND) -E touch_nocreate ../srv_gen/lisp/_package_SHMGetBlocks.lisp
 
-../srv_gen/lisp/SHMReleaseMemory.lisp: ../srv/SHMReleaseMemory.srv
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/roslisp/rosbuild/scripts/genmsg_lisp.py
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/lib/roslib/gendeps
-../srv_gen/lisp/SHMReleaseMemory.lisp: ../manifest.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/class_loader/package.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/cpp_common/package.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/catkin/package.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/genmsg/package.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/gencpp/package.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/geneus/package.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/gennodejs/package.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/genlisp/package.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/genpy/package.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/message_generation/package.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/rostime/package.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/roscpp_traits/package.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/roscpp_serialization/package.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/message_runtime/package.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/rosbuild/package.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/rosconsole/package.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/ros_environment/package.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/rospack/package.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/roslib/package.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/pluginlib/package.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/std_msgs/package.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/rosgraph_msgs/package.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/xmlrpcpp/package.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/roscpp/package.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/message_filters/package.xml
-../srv_gen/lisp/SHMReleaseMemory.lisp: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/message_transport_common/manifest.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../srv_gen/lisp/SHMReleaseMemory.lisp, ../srv_gen/lisp/_package.lisp, ../srv_gen/lisp/_package_SHMReleaseMemory.lisp"
-	/opt/ros/kinetic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/srv/SHMReleaseMemory.srv
-
-../srv_gen/lisp/_package.lisp: ../srv_gen/lisp/SHMReleaseMemory.lisp
-	@$(CMAKE_COMMAND) -E touch_nocreate ../srv_gen/lisp/_package.lisp
-
-../srv_gen/lisp/_package_SHMReleaseMemory.lisp: ../srv_gen/lisp/SHMReleaseMemory.lisp
-	@$(CMAKE_COMMAND) -E touch_nocreate ../srv_gen/lisp/_package_SHMReleaseMemory.lisp
-
 ../srv_gen/lisp/SHMClearAll.lisp: ../srv/SHMClearAll.srv
 ../srv_gen/lisp/SHMClearAll.lisp: /opt/ros/kinetic/share/roslisp/rosbuild/scripts/genmsg_lisp.py
 ../srv_gen/lisp/SHMClearAll.lisp: /opt/ros/kinetic/lib/roslib/gendeps
@@ -173,7 +134,7 @@ CMakeFiles/ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package_SHMClearAll.lisp
 ../srv_gen/lisp/SHMClearAll.lisp: /opt/ros/kinetic/share/roscpp/package.xml
 ../srv_gen/lisp/SHMClearAll.lisp: /opt/ros/kinetic/share/message_filters/package.xml
 ../srv_gen/lisp/SHMClearAll.lisp: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/message_transport_common/manifest.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../srv_gen/lisp/SHMClearAll.lisp, ../srv_gen/lisp/_package.lisp, ../srv_gen/lisp/_package_SHMClearAll.lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../srv_gen/lisp/SHMClearAll.lisp, ../srv_gen/lisp/_package.lisp, ../srv_gen/lisp/_package_SHMClearAll.lisp"
 	/opt/ros/kinetic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/srv/SHMClearAll.srv
 
 ../srv_gen/lisp/_package.lisp: ../srv_gen/lisp/SHMClearAll.lisp
@@ -182,16 +143,55 @@ CMakeFiles/ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package_SHMClearAll.lisp
 ../srv_gen/lisp/_package_SHMClearAll.lisp: ../srv_gen/lisp/SHMClearAll.lisp
 	@$(CMAKE_COMMAND) -E touch_nocreate ../srv_gen/lisp/_package_SHMClearAll.lisp
 
+../srv_gen/lisp/SHMReleaseMemory.lisp: ../srv/SHMReleaseMemory.srv
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/roslisp/rosbuild/scripts/genmsg_lisp.py
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/lib/roslib/gendeps
+../srv_gen/lisp/SHMReleaseMemory.lisp: ../manifest.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/class_loader/package.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/cpp_common/package.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/catkin/package.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/genmsg/package.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/gencpp/package.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/geneus/package.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/gennodejs/package.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/genlisp/package.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/genpy/package.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/message_generation/package.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/rostime/package.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/roscpp_traits/package.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/roscpp_serialization/package.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/message_runtime/package.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/rosbuild/package.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/rosconsole/package.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/ros_environment/package.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/rospack/package.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/roslib/package.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/pluginlib/package.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/std_msgs/package.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/rosgraph_msgs/package.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/xmlrpcpp/package.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/roscpp/package.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /opt/ros/kinetic/share/message_filters/package.xml
+../srv_gen/lisp/SHMReleaseMemory.lisp: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/message_transport_common/manifest.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../srv_gen/lisp/SHMReleaseMemory.lisp, ../srv_gen/lisp/_package.lisp, ../srv_gen/lisp/_package_SHMReleaseMemory.lisp"
+	/opt/ros/kinetic/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/srv/SHMReleaseMemory.srv
+
+../srv_gen/lisp/_package.lisp: ../srv_gen/lisp/SHMReleaseMemory.lisp
+	@$(CMAKE_COMMAND) -E touch_nocreate ../srv_gen/lisp/_package.lisp
+
+../srv_gen/lisp/_package_SHMReleaseMemory.lisp: ../srv_gen/lisp/SHMReleaseMemory.lisp
+	@$(CMAKE_COMMAND) -E touch_nocreate ../srv_gen/lisp/_package_SHMReleaseMemory.lisp
+
 ROSBUILD_gensrv_lisp: CMakeFiles/ROSBUILD_gensrv_lisp
 ROSBUILD_gensrv_lisp: ../srv_gen/lisp/SHMGetBlocks.lisp
 ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package.lisp
 ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package_SHMGetBlocks.lisp
-ROSBUILD_gensrv_lisp: ../srv_gen/lisp/SHMReleaseMemory.lisp
-ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package.lisp
-ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package_SHMReleaseMemory.lisp
 ROSBUILD_gensrv_lisp: ../srv_gen/lisp/SHMClearAll.lisp
 ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package.lisp
 ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package_SHMClearAll.lisp
+ROSBUILD_gensrv_lisp: ../srv_gen/lisp/SHMReleaseMemory.lisp
+ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package.lisp
+ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package_SHMReleaseMemory.lisp
 ROSBUILD_gensrv_lisp: CMakeFiles/ROSBUILD_gensrv_lisp.dir/build.make
 
 .PHONY : ROSBUILD_gensrv_lisp
