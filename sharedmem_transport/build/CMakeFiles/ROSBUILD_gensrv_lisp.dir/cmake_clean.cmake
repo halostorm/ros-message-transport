@@ -9,12 +9,12 @@ file(REMOVE_RECURSE
   "../srv_gen/lisp/SHMGetBlocks.lisp"
   "../srv_gen/lisp/_package.lisp"
   "../srv_gen/lisp/_package_SHMGetBlocks.lisp"
-  "../srv_gen/lisp/SHMClearAll.lisp"
-  "../srv_gen/lisp/_package.lisp"
-  "../srv_gen/lisp/_package_SHMClearAll.lisp"
   "../srv_gen/lisp/SHMReleaseMemory.lisp"
   "../srv_gen/lisp/_package.lisp"
   "../srv_gen/lisp/_package_SHMReleaseMemory.lisp"
+  "../srv_gen/lisp/SHMClearAll.lisp"
+  "../srv_gen/lisp/_package.lisp"
+  "../srv_gen/lisp/_package_SHMClearAll.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

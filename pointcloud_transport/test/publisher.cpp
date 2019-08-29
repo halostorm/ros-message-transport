@@ -61,14 +61,10 @@ class PointCloudBz2Publisher
 {
 protected:
 	ros::NodeHandle n_;
-	// message_transport::MessageTransport<sensor_msgs::PointCloud> it_;
 	bz2_transport::BZ2Publisher<sensor_msgs::PointCloud> pcmsg_pub_;
-	// bz2_transport::BZ2Packet_  pubfn;
-	// message_transport::SingleSubscriberPublisher<sensor_msgs::PointCloud>
 	sensor_msgs::PointCloud pointcloud;
 
 public:
-	//, it_(n_, std::string("pointcloud_transport"), std::string("sensor_msgs::PointCloud")
 	PointCloudBz2Publisher(ros::NodeHandle &n) : n_(n)
 	{
 		pcmsg_pub_.advertise(n_, std::string("pc_source"), 1);
@@ -96,7 +92,7 @@ public:
 				pointcloud.points[i].z = i / 100;
 				pointcloud.channels[0].values[i] = i;
 			}
-			// pcmsg_pub_.publish(pointcloud);
+			pcmsg_pub_.message_transport::SimplePublisherPlugin<sensor_msgs::PointCloud,bz2_transport::BZ2Packet>::publish(pointcloud);
 			ROS_DEBUG("Published pointcloud at %f", pointcloud.header.stamp.toSec());
 			ros::spinOnce();
 			loop_rate.sleep();
@@ -120,7 +116,7 @@ int main(int argc, char **argv)
 	PointCloudBz2Publisher ic_bz2(n);
 	// setDebugLevel("ros.pointcloud_transport");
 	// setDebugLevel("ros.sharedmem_transport");
-	ic.mainloop();
+	// ic.mainloop();
 	ic_bz2.mainloop();
 	return 0;
 }

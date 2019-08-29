@@ -1,0 +1,27 @@
+/home/duwenwen/src/clion-2019.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:2 (include):
+  include could not find load file:
+
+    /core/rosbuild/rosbuild.cmake
+
+
+CMake Error at CMakeLists.txt:17 (rosbuild_make_distribution):
+  Unknown CMake command "rosbuild_make_distribution".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/cmake-build-debug/CMakeFiles/CMakeOutput.log".

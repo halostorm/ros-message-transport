@@ -7,9 +7,9 @@ file(REMOVE_RECURSE
   "../src/udpmulti_transport/srv"
   "CMakeFiles/ROSBUILD_gensrv_py"
   "../src/udpmulti_transport/srv/__init__.py"
-  "../src/udpmulti_transport/srv/_UDPMultGetTopicList.py"
-  "../src/udpmulti_transport/srv/_UDPMultClearAll.py"
   "../src/udpmulti_transport/srv/_UDPMultRegisterTopic.py"
+  "../src/udpmulti_transport/srv/_UDPMultClearAll.py"
+  "../src/udpmulti_transport/srv/_UDPMultGetTopicList.py"
 )
 
 # Per-language clean rules from dependency scanning.

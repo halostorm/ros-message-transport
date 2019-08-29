@@ -21,7 +21,7 @@ namespace bz2_transport {
 			{
 				return "bz2";
 			}
-		protected:
+		private:
 			virtual void publish(const Base& message,
 					const typename message_transport::SimplePublisherPlugin<Base,bz2_transport::BZ2Packet>::PublishFn& publish_fn) const {
 				

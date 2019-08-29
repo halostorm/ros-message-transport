@@ -31,10 +31,10 @@ rosbuild_add_executable(list_transports src/list_transports.cpp)
 target_link_libraries(list_transports ${PROJECT_NAME} console_bridge ${LOG4CXX_LIBRARY})
 
 # link_directories(/usr/lib/x86_64-linux-gnu/libconsole_bridge.so)
-rosbuild_add_executable(test_publisher test/publisher.cpp)
+rosbuild_add_executable(test_publisher momenta/publisher.cpp)
 target_link_libraries(test_publisher ${PROJECT_NAME}  console_bridge ${LOG4CXX_LIBRARY})
 
-rosbuild_add_executable(test_receiver test/receiver.cpp)
+rosbuild_add_executable(test_receiver momenta/receiver.cpp)
 target_link_libraries(test_receiver ${PROJECT_NAME}   console_bridge ${LOG4CXX_LIBRARY})
 #uncomment if you have defined messages
 #rosbuild_genmsg()

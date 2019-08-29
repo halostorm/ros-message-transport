@@ -57,78 +57,78 @@ include CMakeFiles/test_publisher.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test_publisher.dir/flags.make
 
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: CMakeFiles/test_publisher.dir/flags.make
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: ../test/publisher.cpp
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: ../manifest.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/class_loader/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/cpp_common/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/catkin/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/genmsg/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/gencpp/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/geneus/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/gennodejs/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/genlisp/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/genpy/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/message_generation/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/rostime/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/roscpp_traits/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/roscpp_serialization/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/message_runtime/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/rosbuild/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/rosconsole/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/ros_environment/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/rospack/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/roslib/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/pluginlib/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/std_msgs/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/rosgraph_msgs/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/xmlrpcpp/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/roscpp/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/message_filters/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/message_transport_common/manifest.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/manifest.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/udpmulti_transport/manifest.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/bz2_transport/manifest.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/throttled_transport/manifest.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/templated_transports/manifest.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/geometry_msgs/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /opt/ros/kinetic/share/sensor_msgs/package.xml
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/msg_gen/generated
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/srv_gen/generated
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/udpmulti_transport/msg_gen/generated
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/udpmulti_transport/srv_gen/generated
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/bz2_transport/msg_gen/generated
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/throttled_transport/srv_gen/generated
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_publisher.dir/test/publisher.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_publisher.dir/test/publisher.cpp.o -c /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/test/publisher.cpp
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: CMakeFiles/test_publisher.dir/flags.make
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: ../momenta/publisher.cpp
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: ../manifest.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/class_loader/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/cpp_common/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/catkin/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/genmsg/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/gencpp/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/geneus/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/gennodejs/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/genlisp/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/genpy/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/message_generation/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/rostime/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/roscpp_traits/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/roscpp_serialization/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/message_runtime/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/rosbuild/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/rosconsole/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/ros_environment/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/rospack/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/roslib/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/pluginlib/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/std_msgs/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/rosgraph_msgs/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/xmlrpcpp/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/roscpp/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/message_filters/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/message_transport_common/manifest.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/manifest.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/udpmulti_transport/manifest.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/bz2_transport/manifest.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/throttled_transport/manifest.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/templated_transports/manifest.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/geometry_msgs/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /opt/ros/kinetic/share/sensor_msgs/package.xml
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/msg_gen/generated
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/sharedmem_transport/srv_gen/generated
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/udpmulti_transport/msg_gen/generated
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/udpmulti_transport/srv_gen/generated
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/bz2_transport/msg_gen/generated
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o: /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/throttled_transport/srv_gen/generated
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o -c /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/momenta/publisher.cpp
 
-CMakeFiles/test_publisher.dir/test/publisher.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_publisher.dir/test/publisher.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/test/publisher.cpp > CMakeFiles/test_publisher.dir/test/publisher.cpp.i
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_publisher.dir/momenta/publisher.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/momenta/publisher.cpp > CMakeFiles/test_publisher.dir/momenta/publisher.cpp.i
 
-CMakeFiles/test_publisher.dir/test/publisher.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_publisher.dir/test/publisher.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/test/publisher.cpp -o CMakeFiles/test_publisher.dir/test/publisher.cpp.s
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_publisher.dir/momenta/publisher.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/momenta/publisher.cpp -o CMakeFiles/test_publisher.dir/momenta/publisher.cpp.s
 
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o.requires:
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o.requires:
 
-.PHONY : CMakeFiles/test_publisher.dir/test/publisher.cpp.o.requires
+.PHONY : CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o.requires
 
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o.provides: CMakeFiles/test_publisher.dir/test/publisher.cpp.o.requires
-	$(MAKE) -f CMakeFiles/test_publisher.dir/build.make CMakeFiles/test_publisher.dir/test/publisher.cpp.o.provides.build
-.PHONY : CMakeFiles/test_publisher.dir/test/publisher.cpp.o.provides
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o.provides: CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o.requires
+	$(MAKE) -f CMakeFiles/test_publisher.dir/build.make CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o.provides.build
+.PHONY : CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o.provides
 
-CMakeFiles/test_publisher.dir/test/publisher.cpp.o.provides.build: CMakeFiles/test_publisher.dir/test/publisher.cpp.o
+CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o.provides.build: CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o
 
 
 # Object files for target test_publisher
 test_publisher_OBJECTS = \
-"CMakeFiles/test_publisher.dir/test/publisher.cpp.o"
+"CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o"
 
 # External object files for target test_publisher
 test_publisher_EXTERNAL_OBJECTS =
 
-../bin/test_publisher: CMakeFiles/test_publisher.dir/test/publisher.cpp.o
+../bin/test_publisher: CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o
 ../bin/test_publisher: CMakeFiles/test_publisher.dir/build.make
 ../bin/test_publisher: ../lib/libpointcloud_transport.so
 ../bin/test_publisher: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
@@ -141,7 +141,7 @@ CMakeFiles/test_publisher.dir/build: ../bin/test_publisher
 
 .PHONY : CMakeFiles/test_publisher.dir/build
 
-CMakeFiles/test_publisher.dir/requires: CMakeFiles/test_publisher.dir/test/publisher.cpp.o.requires
+CMakeFiles/test_publisher.dir/requires: CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o.requires
 
 .PHONY : CMakeFiles/test_publisher.dir/requires
 

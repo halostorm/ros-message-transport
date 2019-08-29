@@ -6,9 +6,9 @@ file(REMOVE_RECURSE
   "../src/udpmulti_transport/msg"
   "../src/udpmulti_transport/srv"
   "CMakeFiles/ROSBUILD_gensrv_cpp"
-  "../srv_gen/cpp/include/udpmulti_transport/UDPMultGetTopicList.h"
-  "../srv_gen/cpp/include/udpmulti_transport/UDPMultClearAll.h"
   "../srv_gen/cpp/include/udpmulti_transport/UDPMultRegisterTopic.h"
+  "../srv_gen/cpp/include/udpmulti_transport/UDPMultClearAll.h"
+  "../srv_gen/cpp/include/udpmulti_transport/UDPMultGetTopicList.h"
 )
 
 # Per-language clean rules from dependency scanning.

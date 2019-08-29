@@ -518,6 +518,60 @@ gtest_main/fast:
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest_main.dir/build.make gtest/gtest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
+momenta/publisher.o: momenta/publisher.cpp.o
+
+.PHONY : momenta/publisher.o
+
+# target to build an object file
+momenta/publisher.cpp.o:
+	$(MAKE) -f CMakeFiles/test_publisher.dir/build.make CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o
+.PHONY : momenta/publisher.cpp.o
+
+momenta/publisher.i: momenta/publisher.cpp.i
+
+.PHONY : momenta/publisher.i
+
+# target to preprocess a source file
+momenta/publisher.cpp.i:
+	$(MAKE) -f CMakeFiles/test_publisher.dir/build.make CMakeFiles/test_publisher.dir/momenta/publisher.cpp.i
+.PHONY : momenta/publisher.cpp.i
+
+momenta/publisher.s: momenta/publisher.cpp.s
+
+.PHONY : momenta/publisher.s
+
+# target to generate assembly for a file
+momenta/publisher.cpp.s:
+	$(MAKE) -f CMakeFiles/test_publisher.dir/build.make CMakeFiles/test_publisher.dir/momenta/publisher.cpp.s
+.PHONY : momenta/publisher.cpp.s
+
+momenta/receiver.o: momenta/receiver.cpp.o
+
+.PHONY : momenta/receiver.o
+
+# target to build an object file
+momenta/receiver.cpp.o:
+	$(MAKE) -f CMakeFiles/test_receiver.dir/build.make CMakeFiles/test_receiver.dir/momenta/receiver.cpp.o
+.PHONY : momenta/receiver.cpp.o
+
+momenta/receiver.i: momenta/receiver.cpp.i
+
+.PHONY : momenta/receiver.i
+
+# target to preprocess a source file
+momenta/receiver.cpp.i:
+	$(MAKE) -f CMakeFiles/test_receiver.dir/build.make CMakeFiles/test_receiver.dir/momenta/receiver.cpp.i
+.PHONY : momenta/receiver.cpp.i
+
+momenta/receiver.s: momenta/receiver.cpp.s
+
+.PHONY : momenta/receiver.s
+
+# target to generate assembly for a file
+momenta/receiver.cpp.s:
+	$(MAKE) -f CMakeFiles/test_receiver.dir/build.make CMakeFiles/test_receiver.dir/momenta/receiver.cpp.s
+.PHONY : momenta/receiver.cpp.s
+
 src/decimated_publisher.o: src/decimated_publisher.cpp.o
 
 .PHONY : src/decimated_publisher.o
@@ -599,60 +653,6 @@ src/manifest.cpp.s:
 	$(MAKE) -f CMakeFiles/pointcloud_transport.dir/build.make CMakeFiles/pointcloud_transport.dir/src/manifest.cpp.s
 .PHONY : src/manifest.cpp.s
 
-test/publisher.o: test/publisher.cpp.o
-
-.PHONY : test/publisher.o
-
-# target to build an object file
-test/publisher.cpp.o:
-	$(MAKE) -f CMakeFiles/test_publisher.dir/build.make CMakeFiles/test_publisher.dir/test/publisher.cpp.o
-.PHONY : test/publisher.cpp.o
-
-test/publisher.i: test/publisher.cpp.i
-
-.PHONY : test/publisher.i
-
-# target to preprocess a source file
-test/publisher.cpp.i:
-	$(MAKE) -f CMakeFiles/test_publisher.dir/build.make CMakeFiles/test_publisher.dir/test/publisher.cpp.i
-.PHONY : test/publisher.cpp.i
-
-test/publisher.s: test/publisher.cpp.s
-
-.PHONY : test/publisher.s
-
-# target to generate assembly for a file
-test/publisher.cpp.s:
-	$(MAKE) -f CMakeFiles/test_publisher.dir/build.make CMakeFiles/test_publisher.dir/test/publisher.cpp.s
-.PHONY : test/publisher.cpp.s
-
-test/receiver.o: test/receiver.cpp.o
-
-.PHONY : test/receiver.o
-
-# target to build an object file
-test/receiver.cpp.o:
-	$(MAKE) -f CMakeFiles/test_receiver.dir/build.make CMakeFiles/test_receiver.dir/test/receiver.cpp.o
-.PHONY : test/receiver.cpp.o
-
-test/receiver.i: test/receiver.cpp.i
-
-.PHONY : test/receiver.i
-
-# target to preprocess a source file
-test/receiver.cpp.i:
-	$(MAKE) -f CMakeFiles/test_receiver.dir/build.make CMakeFiles/test_receiver.dir/test/receiver.cpp.i
-.PHONY : test/receiver.cpp.i
-
-test/receiver.s: test/receiver.cpp.s
-
-.PHONY : test/receiver.s
-
-# target to generate assembly for a file
-test/receiver.cpp.s:
-	$(MAKE) -f CMakeFiles/test_receiver.dir/build.make CMakeFiles/test_receiver.dir/test/receiver.cpp.s
-.PHONY : test/receiver.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -693,6 +693,12 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... momenta/publisher.o"
+	@echo "... momenta/publisher.i"
+	@echo "... momenta/publisher.s"
+	@echo "... momenta/receiver.o"
+	@echo "... momenta/receiver.i"
+	@echo "... momenta/receiver.s"
 	@echo "... src/decimated_publisher.o"
 	@echo "... src/decimated_publisher.i"
 	@echo "... src/decimated_publisher.s"
@@ -702,12 +708,6 @@ help:
 	@echo "... src/manifest.o"
 	@echo "... src/manifest.i"
 	@echo "... src/manifest.s"
-	@echo "... test/publisher.o"
-	@echo "... test/publisher.i"
-	@echo "... test/publisher.s"
-	@echo "... test/receiver.o"
-	@echo "... test/receiver.i"
-	@echo "... test/receiver.s"
 .PHONY : help
 
 

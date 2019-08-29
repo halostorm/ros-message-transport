@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/test/publisher.cpp" "/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/test_publisher.dir/test/publisher.cpp.o"
+  "/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/momenta/publisher.cpp" "/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/build/CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

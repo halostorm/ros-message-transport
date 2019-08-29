@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test_publisher.dir/test/publisher.cpp.o"
+  "CMakeFiles/test_publisher.dir/momenta/publisher.cpp.o"
   "../bin/test_publisher.pdb"
   "../bin/test_publisher"
 )

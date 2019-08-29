@@ -270,7 +270,7 @@ UBUNTU_XENIAL:BOOL=TRUE
 USERCONFIG:FILEPATH=USERCONFIG-NOTFOUND
 
 //Path to a file.
-_file_name:FILEPATH=/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/test/receiver.cpp
+_file_name:FILEPATH=/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/momenta/receiver.cpp
 
 //Path to a file.
 _gmock_INCLUDES:FILEPATH=/usr/include/gmock/gmock.h

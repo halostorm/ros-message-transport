@@ -136,9 +136,9 @@ message_transport/transport_hints.h
 ros/ros.h
 -
 
-/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/test/numpoints.h
+/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/momenta/numpoints.h
 
-/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/test/publisher.cpp
+/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/momenta/publisher.cpp
 ros/ros.h
 -
 ros/console.h
@@ -150,11 +150,11 @@ sensor_msgs/PointCloud.h
 message_transport/message_transport.h
 -
 numpoints.h
-/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/test/numpoints.h
+/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/momenta/numpoints.h
 bz2_transport/bz2_publisher.h
-/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/test/bz2_transport/bz2_publisher.h
+/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/momenta/bz2_transport/bz2_publisher.h
 bz2_transport/bz2_subscriber.h
-/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/test/bz2_transport/bz2_subscriber.h
+/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/momenta/bz2_transport/bz2_subscriber.h
 
 /opt/ros/kinetic/include/class_loader/./multi_library_class_loader.hpp
 boost/thread.hpp

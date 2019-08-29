@@ -78,9 +78,9 @@ message_transport/transport_hints.h
 ros/ros.h
 -
 
-/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/test/numpoints.h
+/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/momenta/numpoints.h
 
-/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/test/receiver.cpp
+/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/momenta/receiver.cpp
 ros/ros.h
 -
 roscpp/SetLoggerLevel.h
@@ -90,7 +90,7 @@ message_transport/message_transport.h
 sensor_msgs/PointCloud.h
 -
 numpoints.h
-/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/test/numpoints.h
+/home/duwenwen/Workspace/pointcloudcompress/ros-message-transport/pointcloud_transport/momenta/numpoints.h
 log4cxx/logger.h
 -
 
